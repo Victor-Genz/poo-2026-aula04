@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class main {
 
     public static void main(String[] args) {
+
+
         Scanner entrada = new Scanner(System.in);
         CLT clt = new CLT();
         PJ pj = new PJ();
-        System.out.println("Bem vindo ao sistema de cálculos do Leão");
-        System.out.println("Informe sua categoria de trabalho (CLT ou PJ)");
         String categoria = entrada.next();
 
         if(categoria.equals("CLT")){
