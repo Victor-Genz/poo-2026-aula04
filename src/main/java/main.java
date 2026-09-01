@@ -1,3 +1,5 @@
+import jdk.swing.interop.SwingInterOpUtils;
+
 import java.util.Scanner;
 
 public class main {
@@ -10,6 +12,7 @@ public class main {
         PJ pj = new PJ();
         System.out.println("Bem vindo ao sistema de cálculos do Leão");
         System.out.println("Informe sua categoria de trabalho (CLT ou PJ)");
+        System.out.println("tO TESTANDO UMA TAL DE BRANCH");
         String categoria = entrada.next();
 
         if(categoria.equals("CLT")){
